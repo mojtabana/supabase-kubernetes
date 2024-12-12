@@ -14,7 +14,7 @@ secret:
     password: Kzkt87M4aecfJfbVjqu9Ag==
     database: postgres
   analytics:
-    apiKey: your-super-secret-and-long-logflare-key
+    apiKey: qNVXM3aiTdXrk2hIxyAdEI6LV8WS3RfowoVehiltHc4=
 
 db:
   enabled: true

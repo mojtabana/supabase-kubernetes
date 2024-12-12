@@ -34,9 +34,9 @@ studio:
   image:
     tag: 20240326-5e5586d
   environment:
-    STUDIO_DEFAULT_ORGANIZATION: "My Organization"
-    STUDIO_DEFAULT_PROJECT: "My Project"
-    SUPABASE_PUBLIC_URL: http://example.com/
+    STUDIO_DEFAULT_ORGANIZATION: "iLearned"
+    STUDIO_DEFAULT_PROJECT: "leitner app"
+    SUPABASE_PUBLIC_URL: http://studio.ilearned.ir/
     NEXT_PUBLIC_ENABLE_LOGS: "true"
   livenessProbe:
     httpGet:
@@ -48,8 +48,8 @@ auth:
   image:
     tag: v2.143.0
   environment:
-    API_EXTERNAL_URL: http://example.com
-    GOTRUE_SITE_URL: http://example.com
+    API_EXTERNAL_URL: http://api.ilearned.ir
+    GOTRUE_SITE_URL: http://gotrue.ilearned.ir
     GOTRUE_EXTERNAL_EMAIL_ENABLED: "true"
     GOTRUE_MAILER_AUTOCONFIRM: "true"
     GOTRUE_SMTP_ADMIN_EMAIL: "your-mail@example.com"
@@ -116,7 +116,7 @@ kong:
       #   hosts:
       #     - example.com
     hosts:
-      - host: example.com
+      - host: kong.ilearned.ir
         paths:
           - path: /
             pathType: Prefix

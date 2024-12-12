@@ -7,8 +7,8 @@ secret:
     username: your-mail@example.com
     password: example123456
   dashboard:
-    username: supabase
-    password: this_password_is_insecure_and_should_be_updated
+    username: mojtaba
+    password: 09214014336YaZahra*-/
   db:
     username: postgres
     password: example123456

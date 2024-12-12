@@ -11,7 +11,7 @@ secret:
     password: 09214014336YaZahra*-/
   db:
     username: postgres
-    password: example123456
+    password: Kzkt87M4aecfJfbVjqu9Ag==
     database: postgres
   analytics:
     apiKey: your-super-secret-and-long-logflare-key
